@@ -1,0 +1,10 @@
+/Users/jeisonsaldarriaga/Projects/PlatziTrips/PlatziTrips/bin/Release/PlatziTrips.dll
+/Users/jeisonsaldarriaga/Projects/PlatziTrips/PlatziTrips/obj/Release/PlatziTrips.csproj.CoreCompileInputs.cache
+/Users/jeisonsaldarriaga/Projects/PlatziTrips/PlatziTrips/obj/Release/PlatziTrips.dll
+/Users/jeisonsaldarriaga/Projects/PlatziTrips/PlatziTrips/bin/Release/SQLite-net.dll
+/Users/jeisonsaldarriaga/Projects/PlatziTrips/PlatziTrips/bin/Release/SQLitePCLRaw.batteries_green.dll
+/Users/jeisonsaldarriaga/Projects/PlatziTrips/PlatziTrips/bin/Release/SQLitePCLRaw.batteries_v2.dll
+/Users/jeisonsaldarriaga/Projects/PlatziTrips/PlatziTrips/bin/Release/SQLitePCLRaw.core.dll
+/Users/jeisonsaldarriaga/Projects/PlatziTrips/PlatziTrips/bin/Release/SQLite-net.pdb
+/Users/jeisonsaldarriaga/Projects/PlatziTrips/PlatziTrips/bin/Release/SQLite-net.xml
+/Users/jeisonsaldarriaga/Projects/PlatziTrips/PlatziTrips/obj/Release/PlatziTrips.csprojResolveAssemblyReference.cache

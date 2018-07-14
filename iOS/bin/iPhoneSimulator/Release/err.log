@@ -1,0 +1,149 @@
+objc[1444]: Class VCWeakObjectHolder is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace (0x1330934d0) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AVConference.framework/AVConference (0x132f13e38). One of the two will be used. Which one is undefined.
+2018-04-14 11:22:45.703 PlatziTrips.iOS[1444:305886] 
+Unhandled Exception:
+Foundation.MonoTouchException: Objective-C exception thrown.  Name: NSUnknownKeyException Reason: [<UIViewController 0x7fd6b243df60> setValue:forUndefinedKey:]: this class is not key value coding-compliant for the key inicioSesionButton.
+Native stack trace:
+	0   CoreFoundation                      0x0000000119a731e6 __exceptionPreprocess + 294
+	1   libobjc.A.dylib                     0x000000011a902031 objc_exception_throw + 48
+	2   CoreFoundation                      0x0000000119a730b9 -[NSException raise] + 9
+	3   Foundation                          0x000000010f645b47 -[NSObject(NSKeyValueCoding) setValue:forKey:] + 292
+	4   UIKit                               0x000000010c22ef20 -[UIViewController setValue:forKey:] + 87
+	5   UIKit                               0x000000010c51cd56 -[UIRuntimeOutletConnection connect] + 109
+	6   CoreFoundation                      0x0000000119a15e8d -[NSArray makeObjectsPerformSelector:] + 317
+	7   UIKit                               0x000000010c51b700 -[UINib instantiateWithOwner:options:] + 1856
+	8   UIKit                               0x000000010c236137 -[UIViewController _loadViewFromNibNamed:bundle:] + 383
+	9   UIKit                               0x000000010c236a64 -[UIViewController loadView] + 177
+	10  UIKit                               0x000000010c236d81 -[UIViewController loadViewIfRequired] + 175
+	11  UIKit                               0x000000010c27e26c -[UINavigationController _updateScrollViewFromViewController:toViewController:] + 68
+	12  UIKit                               0x000000010c27e54a -[UINavigationController _startTransition:fromViewController:toViewController:] + 136
+	13  UIKit                               0x000000010c27f67e -[UINavigationController _startDeferredTransitionIfNeeded:] + 870
+	14  UIKit                               0x000000010c2808cc -[UINavigationController __viewWillLayoutSubviews] + 150
+	15  UIKit                               0x000000010c4d8bd7 -[UILayoutContainerView layoutSubviews] + 231
+	16  UIKit                               0x000000010c162808 -[UIView(CALayerDelegate) layoutSublayersOfLayer:] + 1515
+	17  QuartzCore                          0x000000011198a61a -[CALayer layoutSublayers] + 177
+	18  QuartzCore                          0x000000011198e82b _ZN2CA5Layer16layout_if_neededEPNS_11TransactionE + 395
+	19  QuartzCore                          0x000000011191529f _ZN2CA7Context18commit_transactionEPNS_11TransactionE + 343
+	20  QuartzCore                          0x0000000111942940 _ZN2CA11Transaction6commitEv + 568
+	21  UIKit                               0x000000010c0ad2c9 __34-[UIApplication _firstCommitBlock]_block_invoke_2 + 141
+	22  CoreFoundation                      0x0000000119a15b0c __CFRUNLOOP_IS_CALLING_OUT_TO_A_BLOCK__ + 12
+	23  CoreFoundation                      0x00000001199fa2db __CFRunLoopDoBlocks + 331
+	24  CoreFoundation                      0x00000001199f9a84 __CFRunLoopRun + 1284
+	25  CoreFoundation                      0x00000001199f930b CFRunLoopRunSpecific + 635
+	26  GraphicsServices                    0x000000011d173a73 GSEventRunModal + 62
+	27  UIKit                               0x000000010c0930b7 UIApplicationMain + 159
+	28  ???                                 0x0000000136b91383 0x0 + 5213066115
+	29  ???                                 0x0000000136b911e3 0x0 + 5213065699
+
+  at ObjCRuntime.Runtime.ThrowNSException (System.IntPtr ns_exception) [0x0000b] in <0a1f753a89814f48b3664aa368375dde>:0 
+  at ObjCRuntime.Runtime.throw_ns_exception (System.IntPtr exc) [0x00000] in <0a1f753a89814f48b3664aa368375dde>:0 
+  at (wrapper native-to-managed) ObjCRuntime.Runtime.throw_ns_exception(intptr)
+--- End of stack trace from previous location where exception was thrown ---
+  at (wrapper managed-to-native) UIKit.UIApplication.UIApplicationMain(int,string[],intptr,intptr)
+  at UIKit.UIApplication.Main (System.String[] args, System.IntPtr principal, System.IntPtr delegate) [0x00005] in <0a1f753a89814f48b3664aa368375dde>:0 
+  at UIKit.UIApplication.Main (System.String[] args, System.String principalClassName, System.String delegateClassName) [0x00038] in <0a1f753a89814f48b3664aa368375dde>:0 
+  at PlatziTrips.iOS.Application.Main (System.String[] args) [0x00000] in <bcc44a0f6ed344eabc1292e0afc60ad1>:0 	0   CoreFoundation                      0x0000000119a731e6 __exceptionPreprocess + 294
+	1   libobjc.A.dylib                     0x000000011a902031 objc_exception_throw + 48
+	2   CoreFoundation                      0x0000000119a730b9 -[NSException raise] + 9
+	3   Foundation                          0x000000010f645b47 -[NSObject(NSKeyValueCoding) setValue:forKey:] + 292
+	4   UIKit                               0x000000010c22ef20 -[UIViewController setValue:forKey:] + 87
+	5   UIKit                               0x000000010c51cd56 -[UIRuntimeOutletConnection connect] + 109
+	6   CoreFoundation                      0x0000000119a15e8d -[NSArray makeObjectsPerformSelector:] + 317
+	7   UIKit                               0x000000010c51b700 -[UINib instantiateWithOwner:options:] + 1856
+	8   UIKit                               0x000000010c236137 -[UIViewController _loadViewFromNibNamed:bundle:] + 383
+	9   UIKit                               0x000000010c236a64 -[UIViewController loadView] + 177
+	10  UIKit                               0x000000010c236d81 -[UIViewController loadViewIfRequired] + 175
+	11  UIKit                               0x000000010c27e26c -[UINavigationController _updateScrollViewFromViewController:toViewController:] + 68
+	12  UIKit                               0x000000010c27e54a -[UINavigationController _startTransition:fromViewController:toViewController:] + 136
+	13  UIKit                               0x000000010c27f67e -[UINavigationController _startDeferredTransitionIfNeeded:] + 870
+	14  UIKit                               0x000000010c2808cc -[UINavigationController __viewWillLayoutSubviews] + 150
+	15  UIKit                               0x000000010c4d8bd7 -[UILayoutContainerView layoutSubviews] + 231
+	16  UIKit                               0x000000010c162808 -[UIView(CALayerDelegate) layoutSublayersOfLayer:] + 1515
+	17  QuartzCore                          0x000000011198a61a -[CALayer layoutSublayers] + 177
+	18  QuartzCore                          0x000000011198e82b _ZN2CA5Layer16layout_if_neededEPNS_11TransactionE + 395
+	19  QuartzCore                          0x000000011191529f _ZN2CA7Context18commit_transactionEPNS_11TransactionE + 343
+	20  QuartzCore                          0x0000000111942940 _ZN2CA11Transaction6commitEv + 568
+	21  UIKit                               0x000000010c0ad2c9 __34-[UIApplication _firstCommitBlock]_block_invoke_2 + 141
+	22  CoreFoundation                      0x0000000119a15b0c __CFRUNLOOP_IS_CALLING_OUT_TO_A_BLOCK__ + 12
+	23  CoreFoundation                      0x00000001199fa2db __CFRunLoopDoBlocks + 331
+	24  CoreFoundation                      0x00000001199f9a84 __CFRunLoopRun + 1284
+	25  CoreFoundation                      0x00000001199f930b CFRunLoopRunSpecific + 635
+	26  GraphicsServices                    0x000000011d173a73 GSEventRunModal + 62
+	27  UIKit                               0x000000010c0930b7 UIApplicationMain + 159
+	28  ???                                 0x0000000136b91383 0x0 + 5213066115
+	29  ???                                 0x0000000136b911e3 0x0 + 5213065699
+
+2018-04-14 11:22:45.704 PlatziTrips.iOS[1444:305886] Unhandled managed exception:
+Objective-C exception thrown.  Name: NSUnknownKeyException Reason: [<UIViewController 0x7fd6b243df60> setValue:forUndefinedKey:]: this class is not key value coding-compliant for the key inicioSesionButton.
+Native stack trace:
+	0   CoreFoundation                      0x0000000119a731e6 __exceptionPreprocess + 294
+	1   libobjc.A.dylib                     0x000000011a902031 objc_exception_throw + 48
+	2   CoreFoundation                      0x0000000119a730b9 -[NSException raise] + 9
+	3   Foundation                          0x000000010f645b47 -[NSObject(NSKeyValueCoding) setValue:forKey:] + 292
+	4   UIKit                               0x000000010c22ef20 -[UIViewController setValue:forKey:] + 87
+	5   UIKit                               0x000000010c51cd56 -[UIRuntimeOutletConnection connect] + 109
+	6   CoreFoundation                      0x0000000119a15e8d -[NSArray makeObjectsPerformSelector:] + 317
+	7   UIKit                               0x000000010c51b700 -[UINib instantiateWithOwner:options:] + 1856
+	8   UIKit                               0x000000010c236137 -[UIViewController _loadViewFromNibNamed:bundle:] + 383
+	9   UIKit                               0x000000010c236a64 -[UIViewController loadView] + 177
+	10  UIKit                               0x000000010c236d81 -[UIViewController loadViewIfRequired] + 175
+	11  UIKit                               0x000000010c27e26c -[UINavigationController _updateScrollViewFromViewController:toViewController:] + 68
+	12  UIKit                               0x000000010c27e54a -[UINavigationController _startTransition:fromViewController:toViewController:] + 136
+	13  UIKit                               0x000000010c27f67e -[UINavigationController _startDeferredTransitionIfNeeded:] + 870
+	14  UIKit                               0x000000010c2808cc -[UINavigationController __viewWillLayoutSubviews] + 150
+	15  UIKit                               0x000000010c4d8bd7 -[UILayoutContainerView layoutSubviews] + 231
+	16  UIKit                               0x000000010c162808 -[UIView(CALayerDelegate) layoutSublayersOfLayer:] + 1515
+	17  QuartzCore                          0x000000011198a61a -[CALayer layoutSublayers] + 177
+	18  QuartzCore                          0x000000011198e82b _ZN2CA5Layer16layout_if_neededEPNS_11TransactionE + 395
+	19  QuartzCore                          0x000000011191529f _ZN2CA7Context18commit_transactionEPNS_11TransactionE + 343
+	20  QuartzCore                          0x0000000111942940 _ZN2CA11Transaction6commitEv + 568
+	21  UIKit                               0x000000010c0ad2c9 __34-[UIApplication _firstCommitBlock]_block_invoke_2 + 141
+	22  CoreFoundation                      0x0000000119a15b0c __CFRUNLOOP_IS_CALLING_OUT_TO_A_BLOCK__ + 12
+	23  CoreFoundation                      0x00000001199fa2db __CFRunLoopDoBlocks + 331
+	24  CoreFoundation                      0x00000001199f9a84 __CFRunLoopRun + 1284
+	25  CoreFoundation                      0x00000001199f930b CFRunLoopRunSpecific + 635
+	26  GraphicsServices                    0x000000011d173a73 GSEventRunModal + 62
+	27  UIKit                               0x000000010c0930b7 UIApplicationMain + 159
+	28  ???                                 0x0000000136b91383 0x0 + 5213066115
+	29  ???                                 0x0000000136b911e3 0x0 + 5213065699
+ (Foundation.MonoTouchException)
+  at ObjCRuntime.Runtime.ThrowNSException (System.IntPtr ns_exception) [0x0000b] in <0a1f753a89814f48b3664aa368375dde>:0 
+  at ObjCRuntime.Runtime.throw_ns_exception (System.IntPtr exc) [0x00000] in <0a1f753a89814f48b3664aa368375dde>:0 
+  at (wrapper native-to-managed) ObjCRuntime.Runtime.throw_ns_exception(intptr)
+--- End of stack trace from previous location where exception was thrown ---
+  at (wrapper managed-to-native) UIKit.UIApplication.UIApplicationMain(int,string[],intptr,intptr)
+  at UIKit.UIApplication.Main (System.String[] args, System.IntPtr principal, System.IntPtr delegate) [0x00005] in <0a1f753a89814f48b3664aa368375dde>:0 
+  at UIKit.UIApplication.Main (System.String[] args, System.String principalClassName, System.String delegateClassName) [0x00038] in <0a1f753a89814f48b3664aa368375dde>:0 
+  at PlatziTrips.iOS.Application.Main (System.String[] args) [0x00000] in <bcc44a0f6ed344eabc1292e0afc60ad1>:0 
+2018-04-14 11:22:45.704 PlatziTrips.iOS[1444:305886] critical: Stacktrace:
+
+2018-04-14 11:22:45.704 PlatziTrips.iOS[1444:305886] critical: 
+Native stacktrace:
+
+2018-04-14 11:22:45.705 PlatziTrips.iOS[1444:305886] critical: 	0   PlatziTrips.iOS                     0x000000010b09ae74 mono_handle_native_crash + 244
+2018-04-14 11:22:45.705 PlatziTrips.iOS[1444:305886] critical: 	1   libsystem_platform.dylib            0x000000011be45f5a _sigtramp + 26
+2018-04-14 11:22:45.706 PlatziTrips.iOS[1444:305886] critical: 	2   ???                                 0x000000010b5f8b0a 0x0 + 4485778186
+2018-04-14 11:22:45.706 PlatziTrips.iOS[1444:305886] critical: 	3   libsystem_c.dylib                   0x000000011ba7bc97 abort + 127
+2018-04-14 11:22:45.706 PlatziTrips.iOS[1444:305886] critical: 	4   PlatziTrips.iOS                     0x000000010b245932 xamarin_unhandled_exception_handler + 34
+2018-04-14 11:22:45.706 PlatziTrips.iOS[1444:305886] critical: 	5   PlatziTrips.iOS                     0x000000010b101734 mono_invoke_unhandled_exception_hook + 148
+2018-04-14 11:22:45.706 PlatziTrips.iOS[1444:305886] critical: 	6   PlatziTrips.iOS                     0x000000010b09ac33 mono_handle_exception_internal + 5955
+2018-04-14 11:22:45.706 PlatziTrips.iOS[1444:305886] critical: 	7   PlatziTrips.iOS                     0x000000010b0994e9 mono_handle_exception + 25
+2018-04-14 11:22:45.706 PlatziTrips.iOS[1444:305886] critical: 	8   PlatziTrips.iOS                     0x000000010b01c12f mono_amd64_throw_exception + 143
+2018-04-14 11:22:45.706 PlatziTrips.iOS[1444:305886] critical: 	9   ???                                 0x000000013454f827 0x0 + 5172951079
+2018-04-14 11:22:45.706 PlatziTrips.iOS[1444:305886] critical: 	10  ???                                 0x00000001345d235b 0x0 + 5173486427
+2018-04-14 11:22:45.707 PlatziTrips.iOS[1444:305886] critical: 	11  CoreFoundation                      0x0000000119ae8d5b __handleUncaughtException + 955
+2018-04-14 11:22:45.707 PlatziTrips.iOS[1444:305886] critical: 	12  libobjc.A.dylib                     0x000000011a9022a8 _ZL15_objc_terminatev + 91
+2018-04-14 11:22:45.707 PlatziTrips.iOS[1444:305886] critical: 	13  libc++abi.dylib                     0x000000011b3770ae _ZSt11__terminatePFvvE + 8
+2018-04-14 11:22:45.707 PlatziTrips.iOS[1444:305886] critical: 	14  libc++abi.dylib                     0x000000011b376d56 __cxa_rethrow + 99
+2018-04-14 11:22:45.707 PlatziTrips.iOS[1444:305886] critical: 	15  libobjc.A.dylib                     0x000000011a9021cc objc_exception_rethrow + 40
+2018-04-14 11:22:45.707 PlatziTrips.iOS[1444:305886] critical: 	16  CoreFoundation                      0x00000001199f9399 CFRunLoopRunSpecific + 777
+2018-04-14 11:22:45.707 PlatziTrips.iOS[1444:305886] critical: 	17  GraphicsServices                    0x000000011d173a73 GSEventRunModal + 62
+2018-04-14 11:22:45.707 PlatziTrips.iOS[1444:305886] critical: 	18  UIKit                               0x000000010c0930b7 UIApplicationMain + 159
+2018-04-14 11:22:45.708 PlatziTrips.iOS[1444:305886] critical: 	19  ???                                 0x0000000136b91383 0x0 + 5213066115
+2018-04-14 11:22:45.708 PlatziTrips.iOS[1444:305886] critical: 	20  ???                                 0x0000000136b911e3 0x0 + 5213065699
+2018-04-14 11:22:45.708 PlatziTrips.iOS[1444:305886] critical: 
+=================================================================
+Got a SIGABRT while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+

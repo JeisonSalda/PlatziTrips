@@ -1,0 +1,8 @@
+PlatziTrips.Droid.MainActivity, PlatziTrips.Droid;md525d5a367af5210c4f9d49d6d4b01384b.MainActivity
+PlatziTrips.Droid.MainActivity, PlatziTrips.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md525d5a367af5210c4f9d49d6d4b01384b.MainActivity
+PlatziTrips.Droid.MainActivity;md525d5a367af5210c4f9d49d6d4b01384b.MainActivity
+platzitrips.droid.MainActivity;md525d5a367af5210c4f9d49d6d4b01384b.MainActivity
+PlatziTrips.Droid.NuevoViajeActivity, PlatziTrips.Droid;md525d5a367af5210c4f9d49d6d4b01384b.NuevoViajeActivity
+PlatziTrips.Droid.NuevoViajeActivity, PlatziTrips.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md525d5a367af5210c4f9d49d6d4b01384b.NuevoViajeActivity
+PlatziTrips.Droid.NuevoViajeActivity;md525d5a367af5210c4f9d49d6d4b01384b.NuevoViajeActivity
+platzitrips.droid.NuevoViajeActivity;md525d5a367af5210c4f9d49d6d4b01384b.NuevoViajeActivity

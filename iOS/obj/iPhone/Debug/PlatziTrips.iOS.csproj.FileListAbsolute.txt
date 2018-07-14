@@ -1,0 +1,14 @@
+/Users/jeisonsaldarriaga/Projects/PlatziTrips/iOS/obj/iPhone/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/jeisonsaldarriaga/Projects/PlatziTrips/iOS/obj/iPhone/Debug/actool/_PartialAppManifest.items
+/Users/jeisonsaldarriaga/Projects/PlatziTrips/iOS/obj/iPhone/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/jeisonsaldarriaga/Projects/PlatziTrips/iOS/obj/iPhone/Debug/coremlc/_PartialAppManifest.items
+/Users/jeisonsaldarriaga/Projects/PlatziTrips/iOS/obj/iPhone/Debug/coremlc/_BundleResourceWithLogicalName.items
+/Users/jeisonsaldarriaga/Projects/PlatziTrips/iOS/obj/iPhone/Debug/optimized/
+/Users/jeisonsaldarriaga/Projects/PlatziTrips/iOS/obj/iPhone/Debug/PlatziTrips.iOS.csproj.CoreCompileInputs.cache
+/Users/jeisonsaldarriaga/Projects/PlatziTrips/iOS/obj/iPhone/Debug/PlatziTrips.iOS.csprojResolveAssemblyReference.cache
+/Users/jeisonsaldarriaga/Projects/PlatziTrips/iOS/bin/iPhone/Debug/PlatziTrips.iOS.exe
+/Users/jeisonsaldarriaga/Projects/PlatziTrips/iOS/bin/iPhone/Debug/PlatziTrips.iOS.pdb
+/Users/jeisonsaldarriaga/Projects/PlatziTrips/iOS/bin/iPhone/Debug/PlatziTrips.dll
+/Users/jeisonsaldarriaga/Projects/PlatziTrips/iOS/bin/iPhone/Debug/PlatziTrips.pdb
+/Users/jeisonsaldarriaga/Projects/PlatziTrips/iOS/obj/iPhone/Debug/PlatziTrips.iOS.exe
+/Users/jeisonsaldarriaga/Projects/PlatziTrips/iOS/obj/iPhone/Debug/PlatziTrips.iOS.pdb

@@ -1,0 +1,8 @@
+/Users/jeisonsaldarriaga/Projects/PlatziTrips/iOS/obj/iPhone/Release/ibtool/_BundleResourceWithLogicalName.items
+/Users/jeisonsaldarriaga/Projects/PlatziTrips/iOS/obj/iPhone/Release/actool/_PartialAppManifest.items
+/Users/jeisonsaldarriaga/Projects/PlatziTrips/iOS/obj/iPhone/Release/actool/_BundleResourceWithLogicalName.items
+/Users/jeisonsaldarriaga/Projects/PlatziTrips/iOS/obj/iPhone/Release/coremlc/_PartialAppManifest.items
+/Users/jeisonsaldarriaga/Projects/PlatziTrips/iOS/obj/iPhone/Release/coremlc/_BundleResourceWithLogicalName.items
+/Users/jeisonsaldarriaga/Projects/PlatziTrips/iOS/obj/iPhone/Release/optimized/
+/Users/jeisonsaldarriaga/Projects/PlatziTrips/iOS/obj/iPhone/Release/PlatziTrips.iOS.csprojResolveAssemblyReference.cache
+/Users/jeisonsaldarriaga/Projects/PlatziTrips/iOS/obj/iPhone/Release/PlatziTrips.iOS.csproj.CoreCompileInputs.cache
